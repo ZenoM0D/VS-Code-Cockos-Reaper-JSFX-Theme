@@ -1,0 +1,33 @@
+{
+  "name": "cockos-reaper-jsfx-theme",
+  "displayName": "Cockos Reaper JSFX Theme",
+  "description": "A Dark Theme specially adapted to the needs of Reaper JSFX Coders!",
+  "version": "0.0.1",
+  "publisher": "ZenoMOD",
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "ZenoMOD",
+    "zeno",
+    "zeno mod",
+    "reaper",
+    "cockos reaper",
+    "jsfx"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cockos Reaper JSFX Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cockos Reaper JSFX Theme-color-theme.json"
+      }
+    ]
+  }
+}
